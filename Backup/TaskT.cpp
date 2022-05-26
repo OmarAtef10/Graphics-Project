@@ -85,45 +85,71 @@ void DrawSquare(HDC hdc, Point p1, Point p2, COLORREF c) {
 
 }
 
-void DrawLineClip(HDC hdc, int x1, int y1, int x2, int y2, COLORREF c) {
-    int dx = x2 - x1;
-    int dy = y2 - y1;
-    if (abs(dy) <= abs(dx)) {
-        if (x1 > x2)swap(x1, y1, x2, y2);
-        if (x1 >= squareXCords[0] && x1 <= squareXCords[1]) {
-            SetPixel(hdc, x1, y1, c);
-        }
-        int x = x1;
-        while (x < x2) {
-            x++;
-            double y = y1 + (double) (x - x1) * dy / dx;
-            if (x >= squareXCords[0] && x <= squareXCords[1] && y >= squareYCords[0] && y <= squareYCords[1]) {
-                SetPixel(hdc, x, ceil(y), c);
-                SetPixel(hdc, x, floor(y), c);
-            } else {
-                continue;
-            }
 
-        }
-    } else {
-        if (y1 > y2)swap(x1, y1, x2, y2);
-        if (y1 >= squareYCords[0] && y1 <= squareYCords[1]) {
-            SetPixel(hdc, x1, y1, c);
-        }
-        int y = y1;
-        while (y < y2) {
-            y++;
-            double x = x1 + (double) (y - y1) * dx / dy;
-            if (x >= squareXCords[0] && x <= squareXCords[1] && y >= squareYCords[0] && y <= squareYCords[1]) {
-                SetPixel(hdc, ceil(x), y, c);
-                SetPixel(hdc, floor(x), y, c);
-            } else {
-                continue;
-            }
+/////////////////////////////////
+union OutCode {
+    unsigned All : 4;
+    struct {
+        unsigned left : 1, top : 1, right : 1, bottom : 1;
+    };
+};
 
+OutCode GetOutCode(double x, double y, int xleft, int ytop, int xright, int ybottom) {
+    OutCode out;
+    out.All = 0;
+    if (x < xleft)out.left = 1; else if (x > xright)out.right = 1;
+    if (y < ytop)out.top = 1; else if (y > ybottom)out.bottom = 1;
+    return out;
+}
+
+void VIntersect(double xs, double ys, double xe, double ye, int x, double* xi, double* yi) {
+    *xi = x;
+    *yi = ys + (x - xs) * (ye - ys) / (xe - xs);
+}
+
+void HIntersect(double xs, double ys, double xe, double ye, int y, double* xi, double* yi) {
+    *yi = y;
+    *xi = xs + (y - ys) * (xe - xs) / (ye - ys);
+}
+
+void CohenSuth(HDC hdc, int xs, int ys, int xe, int ye, int xleft, int ytop, int xright, int ybottom) {
+    double x1 = xs, y1 = ys, x2 = xe, y2 = ye;
+    OutCode out1 = GetOutCode(x1, y1, xleft, ytop, xright, ybottom);
+    OutCode out2 = GetOutCode(x2, y2, xleft, ytop, xright, ybottom);
+    while ((out1.All || out2.All) && !(out1.All & out2.All)) {
+        double xi, yi;
+        if (out1.All) {
+            if (out1.left)VIntersect(x1, y1, x2, y2, xleft, &xi, &yi);
+            else if (out1.top)HIntersect(x1, y1, x2, y2, ytop, &xi, &yi);
+            else if (out1.right)VIntersect(x1, y1, x2, y2, xright, &xi, &yi);
+            else HIntersect(x1, y1, x2, y2, ybottom, &xi, &yi);
+            x1 = xi;
+            y1 = yi;
+            out1 = GetOutCode(x1, y1, xleft, ytop, xright, ybottom);
+        }
+        else {
+            if (out2.left)VIntersect(x1, y1, x2, y2, xleft, &xi, &yi);
+            else if (out2.top)HIntersect(x1, y1, x2, y2, ytop, &xi, &yi);
+            else if (out2.right)VIntersect(x1, y1, x2, y2, xright, &xi, &yi);
+            else HIntersect(x1, y1, x2, y2, ybottom, &xi, &yi);
+            x2 = xi;
+            y2 = yi;
+            out2 = GetOutCode(x2, y2, xleft, ytop, xright, ybottom);
         }
     }
+    if (!out1.All && !out2.All) {
+        MoveToEx(hdc, Round(x1), Round(y1), NULL);
+        LineTo(hdc, Round(x2), Round(y2));
+    }
 }
+////////////////////////////////////////////
+
+void sqPointClip(HDC hdc,int x, int y, COLORREF color) {
+    if (x >= squareXCords[0] && x <= squareXCords[1] && y >= squareYCords[0] && y <= squareYCords[1]) {
+        SetPixel(hdc, x, y, color);
+    }
+}
+
 
 LRESULT WINAPI MyWndProc(HWND hwnd, UINT mcode, WPARAM wp, LPARAM lp) {
     static HDC hdc;
@@ -166,8 +192,9 @@ LRESULT WINAPI MyWndProc(HWND hwnd, UINT mcode, WPARAM wp, LPARAM lp) {
                 GetCursorPos(&p);
                 lineXCords[index] = p.x;
                 lineYCords[index] = p.y;
+                sqPointClip(hdc, p.x, p.y, RGB(255, 0, 0));
                 if (index == 1) {
-                    DrawLineClip(hdc, lineXCords[0], lineYCords[0], lineXCords[1], lineYCords[1], RGB(0, 0, 69));
+                    CohenSuth(hdc, lineXCords[0], lineYCords[0], lineXCords[1], lineYCords[1], squareXCords[0], squareYCords[0], squareXCords[1], squareYCords[1]);
                     index = 0;
                 } else {
                     index++;
