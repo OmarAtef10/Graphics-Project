@@ -1,0 +1,87 @@
+﻿  GraphicsProject.cpp
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Elipse.h(36,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Elipse.h(37,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Elipse.h(57,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Elipse.h(57,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Elipse.h(87,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Elipse.h(87,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Circle.h(41,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Circle.h(42,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Circle.h(58,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Circle.h(58,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Curve.h(36,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Curve.h(36,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(179,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(181,67): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(181,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(181,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(183,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(185,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(185,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(185,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(209,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(211,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(211,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(211,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(213,48): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(215,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(215,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(215,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(244,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(245,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(257,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Fillings.h(258,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(35,34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(36,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(47,31): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(48,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(160,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(161,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(162,39): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(178,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(179,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(180,36): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(205,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(207,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(207,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(207,39): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(209,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(211,73): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(211,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(211,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(241,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(241,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(246,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(246,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(274,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(274,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(279,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(279,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(307,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(307,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(312,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(312,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(340,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(340,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(345,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(345,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\Clippings.h(373,27): warning C4018: '<': signed/unsigned mismatch
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(84,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(89,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(94,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(99,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(141,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(149,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(157,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(197,21): warning C4018: '<': signed/unsigned mismatch
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(237,21): warning C4018: '<': signed/unsigned mismatch
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(213,6): warning C4101: 'size': unreferenced local variable
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(645,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(654,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(662,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(671,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(681,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(693,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(705,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\GraphicsProject\GraphicsProject.cpp(246,6): warning C4101: 'hdc': unreferenced local variable
+  GraphicsProject.vcxproj -> D:\Cairo University\Term 6\Computer Graphics\Final_FINAL\GraphicsProject\Debug\GraphicsProject.exe

@@ -1,0 +1,146 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/jetbrains/VS proj/PeterProject/Final/Circle.cpp
+Circle.h
+D:/jetbrains/VS proj/PeterProject/Final/Circle.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Circle.h
+Line.h
+D:/jetbrains/VS proj/PeterProject/Final/Line.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Clippings.h
+Windows.h
+-
+iostream
+-
+stack
+-
+math.h
+-
+vector
+-
+list
+-
+UJtils.h
+D:/jetbrains/VS proj/PeterProject/Final/UJtils.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Curve.cpp
+Curve.h
+D:/jetbrains/VS proj/PeterProject/Final/Curve.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Curve.h
+Windows.h
+-
+iostream
+-
+stack
+-
+math.h
+-
+vector
+-
+list
+-
+
+D:/jetbrains/VS proj/PeterProject/Final/Elipse.h
+math.h
+-
+UJtils.h
+D:/jetbrains/VS proj/PeterProject/Final/UJtils.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Fillings.cpp
+Fillings.h
+D:/jetbrains/VS proj/PeterProject/Final/Fillings.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Fillings.h
+Curve.h
+D:/jetbrains/VS proj/PeterProject/Final/Curve.h
+Circle.h
+D:/jetbrains/VS proj/PeterProject/Final/Circle.h
+iostream
+-
+stack
+-
+list
+-
+
+D:/jetbrains/VS proj/PeterProject/Final/Final.cpp
+framework.h
+D:/jetbrains/VS proj/PeterProject/Final/framework.h
+Final.h
+D:/jetbrains/VS proj/PeterProject/Final/Final.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Final.h
+resource.h
+D:/jetbrains/VS proj/PeterProject/Final/Resource.h
+
+D:/jetbrains/VS proj/PeterProject/Final/GraphicsProject.cpp
+Windows.h
+-
+fstream
+-
+iostream
+-
+vector
+-
+CommCtrl.h
+-
+tchar.h
+-
+math.h
+-
+Elipse.h
+D:/jetbrains/VS proj/PeterProject/Final/Elipse.h
+Line.h
+D:/jetbrains/VS proj/PeterProject/Final/Line.h
+Circle.h
+D:/jetbrains/VS proj/PeterProject/Final/Circle.h
+Curve.h
+D:/jetbrains/VS proj/PeterProject/Final/Curve.h
+Fillings.h
+D:/jetbrains/VS proj/PeterProject/Final/Fillings.h
+Clippings.h
+D:/jetbrains/VS proj/PeterProject/Final/Clippings.h
+string
+-
+
+D:/jetbrains/VS proj/PeterProject/Final/Line.cpp
+Line.h
+D:/jetbrains/VS proj/PeterProject/Final/Line.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Line.h
+UJtils.h
+D:/jetbrains/VS proj/PeterProject/Final/UJtils.h
+
+D:/jetbrains/VS proj/PeterProject/Final/Resource.h
+
+D:/jetbrains/VS proj/PeterProject/Final/UJtils.h
+Windows.h
+-
+math.h
+-
+
+D:/jetbrains/VS proj/PeterProject/Final/framework.h
+targetver.h
+D:/jetbrains/VS proj/PeterProject/Final/targetver.h
+windows.h
+-
+stdlib.h
+-
+malloc.h
+-
+memory.h
+-
+tchar.h
+-
+
+D:/jetbrains/VS proj/PeterProject/Final/targetver.h
+SDKDDKVer.h
+-
+

@@ -1,0 +1,7 @@
+# ninja log v5
+30	779	6754681594469183	CMakeFiles/Final.dir/Final.cpp.obj	bbe6c578a1e1f386
+0	813	6754681594818515	CMakeFiles/Final.dir/Circle.cpp.obj	f73669e2e635ae92
+50	818	6754681594838461	CMakeFiles/Final.dir/Line.cpp.obj	88ff7c0d9665b38d
+10	1333	6754681600026224	CMakeFiles/Final.dir/Curve.cpp.obj	f2bb9357acbb0d3d
+40	1461	6754681601325148	CMakeFiles/Final.dir/Fillings.cpp.obj	72f83f4a1676cc1d
+20	1598	6754681602680258	CMakeFiles/Final.dir/GraphicsProject.cpp.obj	dc7a8f56bd447812

@@ -1,0 +1,10 @@
+DrawLineParametric 2 344 57 869 32 
+DrawLineParametric 2 484 252 775 396 
+DrawEllipseDirect 3 773 527 887 524 805 405 
+DrawEllipseDirect 3 1036 519 1220 506 1124 434 
+DrawEllipseDirect 3 404 548 992 557 709 419 
+DrawEllipseMidPoint 4 554 105 475 116 512 168 854 26 
+DrawEllipseMidPoint 3 401 128 412 183 334 171 
+DrawLineDDA 2 820 282 557 376 
+DrawLineDDA 2 719 178 848 412 
+DrawLineDDA 2 1217 154 634 232 
